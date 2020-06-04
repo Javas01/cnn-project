@@ -9,7 +9,7 @@
 //   return (
 //           <Card key={props.i} className="tweet">
 //             <CardContent>
-//               <Typography variant="h5" component="h3">
+//               <Typography    ="h5" component="h3">
 //                 CNN
 //               </Typography>
 //               <Typography className={classes.title} color="textSecondary" gutterBottom>

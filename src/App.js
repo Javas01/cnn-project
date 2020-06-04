@@ -16,7 +16,7 @@ function App() {
   const [timeline, settimeline] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:3001/')
+    fetch('https://twitter-feed-api.herokuapp.com/feed')
     .then(res => res.json())
     .then(result => {
       console.log(result)
