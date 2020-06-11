@@ -17,7 +17,7 @@ function App () {
   const [timeline, settimeline] = useState([])
 
   const getNewTweets = (x) => {
-    fetch('http://localhost:3001/feed' || 'https://twitter-feed-api.herokuapp.com/feed')
+    fetch('https://twitter-feed-api.herokuapp.com/feed')
       .then(res => res.json())
       .then(result => {
         console.log(result)
