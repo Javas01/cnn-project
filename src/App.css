@@ -1,9 +1,12 @@
 .App {
   padding: 10px 25px 0 25px;
+  text-align: center;
 }
 .timeline {
   display: flex;
   flex-wrap: wrap;
+  text-align: initial;
+
 }
 .tweet {
   height: 200px;
