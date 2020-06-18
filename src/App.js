@@ -30,7 +30,7 @@ function App () {
       .then(res => res.json())
       .then(result => {
         console.log(result)
-        settimeline(result.reverse())
+        settimeline(result)
         setloading(false)
       })
   }
